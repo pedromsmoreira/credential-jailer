@@ -1,0 +1,8 @@
+Makefile
+.gitgnore
+.gitattributes
+# Ignore OS artifacts
+**/.DS_Store
+docker-compose.yaml
+infrastructure/
+deploy/
