@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestJailer(t *testing.T) {
+func TestVaultReader(t *testing.T) {
 	t.Run("read existing credential from source should return unencoded credential", func(t *testing.T) {
 		expected := &Credential{
 			Name:  "name",
